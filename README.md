@@ -3,7 +3,11 @@
 ```bash
 docker pull <baseimagename> [EXMP : node]
 ```
-
+### run base image
+```bash
+docker run -it node /bin/bash
+```
+ 
 ### Create make image
 ```bash
 docker build -t basic-node-app .
