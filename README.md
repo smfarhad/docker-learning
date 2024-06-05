@@ -29,6 +29,11 @@ docker image rm [image_name]
 ```bash
 docker image rm [image_name] -f
 ```
+### show only running container
+
+```bash
+docker ps
+```
 ### show all container
 
 ```bash
