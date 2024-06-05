@@ -1,4 +1,8 @@
 # DOCKER COMMANDS
+### get base image from docker hub
+```bash
+docker pull <baseimagename> [EXMP : node]
+```
 
 ### Create make image
 ```bash
