@@ -56,6 +56,5 @@ docker system prune -a
 ```bash
 docker run --name [container_name] -p [port] [app_image:version]
 example : docker run --name basic-app-container-v2 -p 5500:5500 basic-app:v2
-example : docker run --name basic-app-container -p 5500:5500 --rm -v D:\\docker-learning:/app basic-app
-```
+example : docker run --name basic-app-container -p 5500:5500 --rm -v D:/docker/basic-app:/app basic-app
 
